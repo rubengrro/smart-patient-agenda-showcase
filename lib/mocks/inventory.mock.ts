@@ -1,0 +1,58 @@
+import type { InventoryItem } from "@/lib/domain/types"
+
+export const inventoryMock: InventoryItem[] = [
+  {
+    id: "inventory_001",
+    name: "Latex Gloves Pair",
+    unit: "pair",
+    stock: 120,
+    minStock: 20,
+    active: true,
+    createdAt: "2026-04-20T07:00:00Z",
+  },
+  {
+    id: "inventory_002",
+    name: "Local Anesthesia Cartridge",
+    unit: "cartridge",
+    stock: 18,
+    minStock: 10,
+    active: true,
+    createdAt: "2026-04-20T07:05:00Z",
+  },
+  {
+    id: "inventory_003",
+    name: "Irrigation Kit",
+    unit: "kit",
+    stock: 6,
+    minStock: 5,
+    active: true,
+    createdAt: "2026-04-20T07:10:00Z",
+  },
+  {
+    id: "inventory_004",
+    name: "Endodontic File Set",
+    unit: "set",
+    stock: 9,
+    minStock: 4,
+    active: true,
+    createdAt: "2026-04-20T07:15:00Z",
+  },
+  {
+    id: "inventory_005",
+    name: "Orthodontic Adjustment Pack",
+    unit: "pack",
+    stock: 14,
+    minStock: 6,
+    active: true,
+    createdAt: "2026-04-20T07:20:00Z",
+  },
+  {
+    id: "inventory_006",
+    name: "Composite Resin Kit",
+    unit: "kit",
+    stock: 4,
+    minStock: 4,
+    active: true,
+    createdAt: "2026-04-20T07:25:00Z",
+  },
+]

@@ -1,0 +1,51 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next
+/out
+/build
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# generated
+/lib/generated/prisma
+next-env.d.ts
+*.tsbuildinfo
+
+# local/temp
+/tmp
+/uploads
+.DS_Store
+.vercel
+.idea
+.vscode/*
+
+# private internals for showcase
+/app/api
+/lib/data
+/lib/domain/scheduling
+/lib/auth.ts
+/lib/auth-client.ts
+/lib/session.ts
+/lib/prisma.ts
+/proxy.ts
+
+# prisma internals
+/prisma/schema.prisma
+/prisma/migrations
+/prisma/seed.ts
+
+# backups/internal notes
+/backup
